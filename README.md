@@ -43,7 +43,6 @@
 ```bash
 git clone https://github.com/rakehellsx/ios-spyguard.git
 cd ios-spyguard
-git checkout dev
 python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -U pip
