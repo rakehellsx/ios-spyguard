@@ -1,7 +1,5 @@
 # iOS SpyGuard
 
-作者：**Manus AI**
-
 ## 项目简介
 
 **iOS SpyGuard** 是基于 [Mobile Verification Toolkit（MVT）](https://github.com/mvt-project/mvt) 扩展的 iOS 间谍软件检测工具。项目新增 `SpywareObjects` 检测模块，用于在 iOS 备份、文件系统转储、sysdiagnose 解包目录或其他 iOS 取证目录中发现 Pegasus、Predator、Stalkerware 等间谍软件相关的 IOC 与启发式痕迹。MVT 官方文档说明，MVT 可对 iPhone 备份或文件系统转储加载 STIX2 IOC 文件进行检测，并会将命中结果保存为带 `_detected` 后缀的 JSON 文件。[1] [2]
