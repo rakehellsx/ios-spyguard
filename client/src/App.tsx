@@ -57,7 +57,7 @@ function Router() {
       <Route path="/login" component={Login} />
       <Route>
         <AuthGuard>
-          <DashboardLayout appName="iOS SpyGuard" navItems={NAV_ITEMS}>
+          <DashboardLayout>
             <Switch>
               <Route path="/" component={Dashboard} />
               <Route path="/devices" component={Devices} />
